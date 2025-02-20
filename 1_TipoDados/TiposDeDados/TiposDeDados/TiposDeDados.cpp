@@ -35,6 +35,11 @@ int main()
 	char letra = 'Z';
 	cout << "char letra = " << letra << " ocupa " << sizeof(letra) << " bytes\n";
 
+	cout << "\nTamanho da frase\n";
+	cout << "=============\n";
+	char frase = 'Z2';
+	cout << "char letra = " << frase << " ocupa " << sizeof(frase) << " bytes\n";
+
 	cout << "\nTipo string\n";
 	cout << "===========\n";
 	string texto = "Estrutura de Dados vai ser moleza!";
